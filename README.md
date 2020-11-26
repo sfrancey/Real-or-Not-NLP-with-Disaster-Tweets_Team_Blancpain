@@ -2,9 +2,9 @@
 
 ## Team Blancpain
 
-Gabin FLOURAC
-Sixtine FRANCEY
-Alexandre KEUSEN
+Gabin FLOURAC,
+Sixtine FRANCEY,
+Alexandre KEUSEN,
 
 ## Objectif of the Project 🕵️
 
@@ -19,14 +19,14 @@ Our results are compared among all teams involved in this competition in order t
 Step 1: Load and visualize (EDA) 
 - import the initial database 
 - describe database 
-- Highlight distribution among features 
+- highlight distribution among features 
 
 Step 2: Base rate of the initial database 
 
 Step 3: Bases benchmark accuracies: train the model on the original dataset without any modification (basic model)
-- Using "Keyword" feature 
-- Using Tweeets, "text" feature 
-- Combining both Keywords and tweets features
+- using "Keyword" feature 
+- using Tweeets, "text" feature 
+- combining both Keywords and tweets features
 --> Startegic conclusion 
 
 Step 4: Improvement of our ML Model: data cleaning 
@@ -35,9 +35,9 @@ Step 4: Improvement of our ML Model: data cleaning
 --> Interative structure 
 
 Step 5: Develop modeling 
-- Use logistic regression 
-- Use kNN method 
-- Use  Decision trees 
+- logistic regression 
+- kNN method 
+- decision trees 
 
 Step 6: Results presentation 
 
