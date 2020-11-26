@@ -24,14 +24,15 @@ Step 1: Load and visualize (EDA)
 Step 2: Base rate of the initial database 
 
 Step 3: Bases benchmark accuracies: train the model on the original dataset without any modification (basic model)
-- using "Keyword" feature 
-- using Tweeets, "text" feature 
-- combining both Keywords and tweets features
+- Text preprocessing
+- testing by using "Keyword" feature 
+- testing by using Tweeets, "text" feature 
+- testing by combining both Keywords and tweets features
 --> Startegic conclusion 
 
 Step 4: Improvement of our ML Model: data cleaning 
-- Cleaning keywords
-- Cleaning Tweets 
+- Cleaning keywords (text processing)
+- Cleaning Tweets (text processing)
 --> Interative structure 
 
 Step 5: Development of the modeling 
