@@ -1,4 +1,4 @@
-# Real or Not NLP with Disaster Tweets 
+# DM&ML Project: Real or Not NLP with Disaster Tweets 
 
 ## Team Blancpain
 
