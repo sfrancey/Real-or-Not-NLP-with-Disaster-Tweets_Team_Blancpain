@@ -34,7 +34,7 @@ Step 4: Improvement of our ML Model: data cleaning
 - Cleaning Tweets 
 --> Interative structure 
 
-Step 5: Develop modeling 
+Step 5: Development of the modeling 
 - logistic regression 
 - kNN method 
 - decision trees 
