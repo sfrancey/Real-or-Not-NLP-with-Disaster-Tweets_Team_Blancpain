@@ -1,0 +1,114 @@
+﻿Analysé;smileys;parameters;model;features;result
+keyword;non;stopwords;log;w2v;0,57
+keyword;non;punctuation;log;w2v;0,57
+keyword;non;stop + punct;log;w2v;0,57
+keyword;non;isolated;log;w2v;0,57
+text;non;stop + punct;forest;tfidf;0,62
+keyword;non;stopwords;forest;tfidf;0,63
+keyword + text;non;stopwords;forest;tfidf;0,63
+keyword;non;punctuation;forest;tfidf;0,63
+text;non;punctuation;forest;tfidf;0,63
+keyword;non;stop + punct;forest;tfidf;0,63
+keyword + text;non;stop + punct;forest;tfidf;0,63
+keyword cleaned + text ;non;stop + punct;forest;tfidf;0,63
+keyword;non;isolated;forest;tfidf;0,63
+text;non;stopwords;forest;tfidf;0,64
+keyword cleaned + text ;non;stopwords;forest;tfidf;0,64
+keyword + text;non;punctuation;forest;tfidf;0,64
+keyword cleaned + text ;non;punctuation;forest;tfidf;0,64
+text;non;isolated;forest;tfidf;0,64
+keyword + text;non;isolated;forest;tfidf;0,64
+keyword cleaned + text ;non;isolated;forest;tfidf;0,64
+keyword;non;N/A;KNN;w2v;0,65
+text;non;N/A;forest;tfidf;0,65
+keyword + text;non;N/A;forest;tfidf;0,65
+keyword cleaned + text ;non;N/A;forest;tfidf;0,65
+text;oui;to_be_deleted;forest;tfidf;0,65
+keyword cleaned + text ;oui;to_be_deleted + isolated;forest;tfidf;0,65
+text;oui;N/A;forest;tfidf;0,66
+keyword cleaned + text ;oui;N/A;forest;tfidf;0,66
+keyword cleaned + text ;oui;to_be_deleted;forest;tfidf;0,66
+keyword;non;N/A;log;w2v;0,67
+keyword;non;N/A;KNN;tfidf;0,67
+text;oui;to_be_deleted + isolated;forest;tfidf;0,67
+keyword;non;stopwords;forest;w2v;0,69
+keyword;non;punctuation;forest;w2v;0,69
+keyword;non;stop + punct;forest;w2v;0,69
+keyword;non;stopwords;log;tfidf;0,7
+keyword;non;punctuation;log;tfidf;0,7
+keyword;non;stop + punct;log;tfidf;0,7
+keyword;non;isolated;forest;w2v;0,7
+keyword;non;isolated;log;tfidf;0,7
+keyword + text;non;stopwords;log;w2v;0,73
+text;non;N/A;KNN;w2v;0,73
+text;non;stopwords;forest;w2v;0,74
+text;non;stop + punct;forest;w2v;0,74
+text;non;stop + punct;log;w2v;0,74
+keyword + text;non;stop + punct;log;w2v;0,74
+keyword;non;N/A;log;tfidf;0,74
+text;non;stop + punct;KNN;w2v;0,74
+keyword + text;non;N/A;KNN;tfidf;0,74
+text;non;words corrected;log;w2v;0,74
+text;non;stopwords;log;w2v;0,75
+keyword + text;non;stopwords;forest;w2v;0,75
+keyword cleaned + text ;non;stopwords;log;w2v;0,75
+keyword cleaned + text ;non;stop + punct;forest;w2v;0,75
+keyword + text;non;isolated;log;w2v;0,75
+text;non;stop + punct;KNN;tfidf;0,75
+keyword cleaned + text ;non;stopwords;forest;w2v;0,76
+keyword + text;non;punctuation;log;w2v;0,76
+keyword + text;non;stop + punct;forest;w2v;0,76
+keyword cleaned + text ;non;stop + punct;log;w2v;0,76
+text;non;isolated;forest;w2v;0,76
+text;non;isolated;log;w2v;0,76
+keyword + text;non;isolated;forest;w2v;0,76
+keyword cleaned + text ;non;isolated;log;w2v;0,76
+text;non;N/A;forest;w2v;0,76
+keyword + text;non;N/A;forest;w2v;0,76
+keyword cleaned + text ;non;N/A;forest;w2v;0,76
+text;oui;N/A;log;w2v;0,76
+text;oui;to_be_deleted;log;w2v;0,76
+text;oui;to_be_deleted + isolated;forest;w2v;0,76
+keyword cleaned + text ;oui;to_be_deleted + isolated;forest;w2v;0,76
+keyword cleaned + text ;oui;N/A;log;w2v;0,765
+text;non;punctuation;forest;w2v;0,77
+text;non;punctuation;log;w2v;0,77
+keyword cleaned + text ;non;punctuation;log;w2v;0,77
+keyword cleaned + text ;non;isolated;forest;w2v;0,77
+text;non;N/A;KNN;tfidf;0,77
+keyword cleaned + text ;non;N/A;KNN;tfidf;0,77
+keyword cleaned + text ;non;N/A;log;w2v;0,77
+text;oui;N/A;forest;w2v;0,77
+keyword cleaned + text ;oui;N/A;forest;w2v;0,77
+text;oui;to_be_deleted;forest;w2v;0,77
+keyword cleaned + text ;oui;to_be_deleted;log;w2v;0,77
+text;oui;to_be_deleted + isolated;log;w2v;0,77
+keyword cleaned + text ;oui;to_be_deleted + isolated;log;w2v;0,77
+keyword + text;non;stopwords;log;tfidf;0,78
+keyword + text;non;punctuation;forest;w2v;0,78
+keyword cleaned + text ;non;punctuation;forest;w2v;0,78
+keyword + text;non;stop + punct;log;tfidf;0,78
+text;non;N/A;log;w2v;0,78
+keyword cleaned + text ;oui;to_be_deleted;forest;w2v;0,78
+text;non;stopwords;log;tfidf;0,79
+text;non;stop + punct;log;tfidf;0,79
+keyword + text;non;N/A;log;w2v;0,79
+text;non;words corrected;log;tfidf;0,79
+keyword cleaned + text ;non;stopwords;log;tfidf;0,8
+text;non;punctuation;log;tfidf;0,8
+keyword + text;non;punctuation;log;tfidf;0,8
+keyword cleaned + text ;non;punctuation;log;tfidf;0,8
+keyword cleaned + text ;non;stop + punct;log;tfidf;0,8
+text;non;isolated;log;tfidf;0,8
+keyword + text;non;isolated;log;tfidf;0,8
+text;oui;N/A;log ;tfidf;0,8
+text;oui;to_be_deleted;log ;tfidf;0,8
+text;oui;to_be_deleted + isolated;log ;tfidf;0,8
+keyword cleaned + text ;oui;N/A;log ;tfidf;0,804
+keyword cleaned + text ;oui;to_be_deleted + isolated;log ;tfidf;0,805
+keyword cleaned + text ;oui;to_be_deleted;log ;tfidf;0,81
+keyword cleaned + text ;non;isolated;log;tfidf;0,814
+keyword + text;non;N/A;log;tfidf;0,816
+text;non;N/A;log;tfidf;0,817
+keyword cleaned + text;non;Modeling hyper parameters ;log;tfidf;0,818
+keyword cleaned + text ;non;N/A;log;tfidf;0,82
