@@ -77,7 +77,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 
 - Merge Keywords + Text cleaned with cleaned  locations
 
-- **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘︎**
+- **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘️**
 
 
 #### Iteration 6 : Model and hyperparameters optimization  
