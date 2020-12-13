@@ -35,6 +35,16 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - **Base Rate : 0.572**
 
 #### Iteration 2 : Working on Keywords
+
+- EDA on Keywords: 
+  - Cleaning by grouping similar Keywords (eg. "blew%20up","blown%20up" = "blew%20up")
+- Plot Top 15 Keywords per Target 
+- Plot Most related keywords per target 
+
+- **Basic Model: few pre-processing**
+
+Best score: Logistic Regression - Keyword/Target - TFIDF : 0.74
+
 #### Iteration 3 : Working on text
 #### Iteration 4 : Working on Keyword + Text
 #### Iteration 5 : Workig on Location
