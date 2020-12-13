@@ -122,11 +122,11 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
 ![](Data/progressiongraph.jpg)
 
-- Iteration 1 : Find the base rate >> Accuracy = 0,57
-- Iteration 2 : Working on Keywords >> Accuracy = 0,74
-- Iteration 3 : Working on text >> Accuracy = 0,817
-- Iteration 4 : Working on Keyword + Text >> Accuracy = 0,818
-- Iteration 5 : Workig on Location >> Accuracy = 0,77
-- Iteration 6 : Model and hyperparameters optimization >> Accuracy = 0,818                        
-- Iteration 7.1 : Working on Emojis >> Accuracy = 0,804
-- Iteration 7.2 : Working on spelling correction >> Accuracy = 0,79
+- Iteration 1 : Find the base rate >> Accuracy = **0,57**
+- Iteration 2 : Working on Keywords >> Accuracy = **0,74**
+- Iteration 3 : Working on text >> Accuracy = **0,817**
+- Iteration 4 : Working on Keyword + Text >> Accuracy = **0,818**
+- Iteration 5 : Workig on Location >> Accuracy = **0,77**
+- Iteration 6 : Model and hyperparameters optimization >> Accuracy = **0,818**                        
+- Iteration 7.1 : Working on Emojis >> Accuracy = **0,804**
+- Iteration 7.2 : Working on spelling correction >> Accuracy = **0,79**
