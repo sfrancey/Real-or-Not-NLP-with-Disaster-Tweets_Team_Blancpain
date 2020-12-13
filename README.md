@@ -16,6 +16,22 @@ Our results are compared among all teams involved in this competition in order t
 
 ## Project Structure 🚀
 
+### Pre-tasks
+
+- Create new 
+
+### Iteration
+
+#### Iteration 1 : Find the base rate
+#### Iteration 2 : Working on Keywords
+#### Iteration 3 : Working on text
+#### Iteration 4 : Working on Keyword + Text
+#### Iteration 5 : Workig on Location
+#### Iteration 6 : Model and hyperparameters optimization                      
+#### Iteration 7 : Unsuccessful tries
+##### Iteration 7.1 : Working on Emojis
+##### Iteration 7.2 : Working on spelling correction
+
 Step 1: Load and visualize (EDA) 
 - import the initial database 
 - describe database 
