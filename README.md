@@ -6,7 +6,7 @@ Gabin FLOURAC,
 Sixtine FRANCEY,
 Alexandre KEUSEN,
 
-## Objectif of the Project 🕵️
+## Objective of the Project 🕵️
 
 Our challenge is to build a Machine Learning Model that aim to predict which tweets are about a real disaster and which are not. 
 
@@ -47,3 +47,7 @@ Step 6: Results presentation
 - 1st submission: ...
 - ...
 - ...
+
+## Accuracy evolution Graph
+
+![](Data/progressiongraph.jpg)
