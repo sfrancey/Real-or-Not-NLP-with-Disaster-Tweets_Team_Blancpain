@@ -55,7 +55,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - Bais Model trying preprocessing techniques
 - Result: Did not improve the model. Worse, decreased the accuracy by 0.002
 
-- **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 (↗)**
+- **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 ↗**
 
 
 #### Iteration 4 : Working on Keyword + Text
