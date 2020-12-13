@@ -18,11 +18,18 @@ Our results are compared among all teams involved in this competition in order t
 
 ### Pre-tasks
 
-- Create new 
+- Create new GitHub repository with separated folders (Data, Code, Document) and a ReadMe file
+- Create new python notebook with Collab and update it on Github (in Code Folder)
+- Importing dataets in GitHub (in Data Folder)
+- Complete ReadME file
+
 
 ### Iteration
 
 Our project has been built around 7 iterations. One for each assumption. For each of these, did  EDA and we tried and enriched our model with different features, further cleaning and using several parameters and classification models.
+
+Moreover, we updated the Readme file every week in order to monitor our project activities.
+
 
 #### Iteration 1 : Find the base rate
 
@@ -35,6 +42,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - **Base Rate : 0.572**
 
 
+
 #### Iteration 2 : Working on Keywords
 
 - EDA on Keywords: 
@@ -44,6 +52,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - Basic Model: few pre-processing
 
 - **Best score: Logistic Regression - Keyword/Target - TFIDF : 0.74**
+
 
 
 #### Iteration 3 : Working on text
@@ -58,6 +67,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 ↗**
 
 
+
 #### Iteration 4 : Working on Keyword + Text
 
 - Further EDA on Keyword: Only consider most related Keywords per Target (> 87%)
@@ -65,7 +75,8 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 
 - Merged Selected Keyword + Text (cleaned from iteration 3)
 
-- **Best Score: Logistic Regression - TFIDF : 0.818 ↗**
+- **Best Accuracy : Logistic Regression - TFIDF : 0.818 ↗**
+
 
 
 #### Iteration 5 : Workig on Location
@@ -80,6 +91,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘️**
 
 
+
 #### Iteration 6 : Model and hyperparameters optimization  
 
 - Model optimization by using cross validation and hyperparameters optimization for the following models: 
@@ -89,6 +101,7 @@ Our project has been built around 7 iterations. One for each assumption. For eac
   - decision tree
 
 - Evaluated the model on selected keywords, selected location and text (iteration 5), since it was the most accurate features to work with
+
 
 
 #### Iteration 7 : Unsuccessful tries
@@ -101,42 +114,11 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 
 - We tried to use only one of these cleaning method each time and applied all models onto it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
 
-- **Best Accuracy : Text + selected keyword / logistic regression / TF-IDF : 
+- **Best Accuracy : Text + selected keyword / logistic regression / TF-IDF :**
 
 
-Step 1: Load and visualize (EDA) 
-- import the initial database 
-- describe database 
-- highlight distribution among features 
 
-Step 2: Base rate of the initial database 
-
-Step 3: Bases benchmark accuracies: train the model on the original dataset without any modification (basic model)
-- Text preprocessing
-- testing by using "Keyword" feature 
-- testing by using Tweeets, "text" feature 
-- testing by combining both Keywords and tweets features
---> Startegic conclusion 
-
-Step 4: Improvement of our ML Model: data cleaning 
-- Cleaning keywords (text processing)
-- Cleaning Tweets (text processing)
---> Interative structure 
-
-Step 5: Development of the modeling 
-- logistic regression 
-- kNN method 
-- decision trees 
-
-Step 6: Results presentation 
-
-## Results 🥇 
-
-- 1st submission: ...
-- ...
-- ...
-
-## Accuracy evolution Graph
+## Results and Accuracy Evolution Graph 🥇
 
 ![](Data/progressiongraph.jpg)
 
