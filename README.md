@@ -22,6 +22,8 @@ Our results are compared among all teams involved in this competition in order t
 
 ### Iteration
 
+Our project has been built around 7 iterations. One for each assumption. For each of these, did  EDA and we tried and enriched our model with different features, further cleaning and using several parameters and classification models.
+
 #### Iteration 1 : Find the base rate
 #### Iteration 2 : Working on Keywords
 #### Iteration 3 : Working on text
