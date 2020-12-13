@@ -39,14 +39,25 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 
 - EDA on Keywords: 
   - Cleaning by grouping similar Keywords (eg. "blew%20up","blown%20up" = "blew%20up")
-- Plot Top 15 Keywords per Target 
-- Plot Most related keywords per target 
+  - Plot Top 15 Keywords per Target 
+  - Plot Most related keywords per target 
 - Basic Model: few pre-processing
 
 - **Best score: Logistic Regression - Keyword/Target - TFIDF : 0.74**
 
 
 #### Iteration 3 : Working on text
+
+- EDA on Text: Evaluated the impact of the two following cleaning on text:
+  - Dropped stopwords
+  - Removed punctuation
+
+- Bais Model trying preprocessing techniques
+- Result: Did not improve the model. Worse, decreased the accuracy by 0.002
+
+- **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 (↗)**
+
+
 #### Iteration 4 : Working on Keyword + Text
 #### Iteration 5 : Workig on Location
 #### Iteration 6 : Model and hyperparameters optimization                      
