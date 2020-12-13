@@ -59,7 +59,27 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 
 
 #### Iteration 4 : Working on Keyword + Text
+
+- Further EDA on Keyword: Only consider most related Keywords per Target (> 87%)
+    → Keyword Selected = 47 out of 210
+
+- Merged Selected Keyword + Text (cleaned from iteration 3)
+
+- **Best Score: Logistic Regression - TFIDF : 0.818 ↗**
+
+
 #### Iteration 5 : Workig on Location
+
+- EDA on Location :
+  - Cleaning and Normalizing Location features which appears the most (Top 150)
+  - Identify which location are mainly related to a specific target and which ones are ambiguous
+  - Only consider most related Location per Target (> 90%) (Cf. Graph) ⇒ 7 locations
+
+- Merge Keywords + Text cleaned with cleaned  locations
+
+- **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘︎**
+
+
 #### Iteration 6 : Model and hyperparameters optimization                      
 #### Iteration 7 : Unsuccessful tries
 ##### Iteration 7.1 : Working on Emojis
