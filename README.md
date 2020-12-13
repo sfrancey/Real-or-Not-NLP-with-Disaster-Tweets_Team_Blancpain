@@ -80,10 +80,29 @@ Our project has been built around 7 iterations. One for each assumption. For eac
 - **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘︎**
 
 
-#### Iteration 6 : Model and hyperparameters optimization                      
+#### Iteration 6 : Model and hyperparameters optimization  
+
+- Model optimization by using cross validation and hyperparameters optimization for the following models: 
+  - kNN
+  - logistic regression
+  - random forest
+  - decision tree
+
+- Evaluated the model on selected keywords, selected location and text (iteration 5), since it was the most accurate features to work with
+
+
 #### Iteration 7 : Unsuccessful tries
-##### Iteration 7.1 : Working on Emojis
-##### Iteration 7.2 : Working on spelling correction
+
+- Tested more than 100 different models to see which one was the most accurate. We tried the following cleaning:
+  - Clean smileys
+  - Clean spelling mistakes
+  - Remove isolated letters
+  - Delete further elements (@, html punctuation, http links)
+
+- We tried to use only one of these cleaning method each time and applied all models onto it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
+
+- **Best Accuracy : Text + selected keyword / logistic regression / TF-IDF : 
+
 
 Step 1: Load and visualize (EDA) 
 - import the initial database 
