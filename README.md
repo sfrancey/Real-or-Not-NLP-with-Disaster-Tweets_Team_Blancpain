@@ -51,3 +51,12 @@ Step 6: Results presentation
 ## Accuracy evolution Graph
 
 ![](Data/progressiongraph.jpg)
+
+1.   Iteration 1 : Find the base rate >> Accuracy = 0,57
+2.   Iteration 2 : Working on Keywords >> Accuracy = 0,74
+3.   Iteration 3 : Working on text >> Accuracy = 0,817
+4.   Iteration 4 : Working on Keyword + Text >> Accuracy = 0,818
+5.   Iteration 5 : Workig on Location >> Accuracy = 0,77
+6.   Iteration 6 : Model and hyperparameters optimization >> Accuracy = 0,818
+7.1  Iteration 7.1 : Working on Emojis >> Accuracy = 0,804
+7.2  Iteration 7.2 : Working on spelling correction >> Accuracy = 0,79
