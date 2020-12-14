@@ -79,7 +79,7 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
 
 
-#### Iteration 5 : Workig on Location
+#### Iteration 5 : Working on Location
 
 - EDA on Location :
   - Cleaning and Normalizing Location features which appears the most (Top 150)
