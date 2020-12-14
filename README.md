@@ -102,6 +102,7 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
 - Evaluated the model on selected keywords, selected location and text (iteration 5), since it was the most accurate features to work with
 
+- **Best Accuracy : Text + Selected location + Selected keywords / logistc regression / TF-IDF / C: 3.1622776601683795, max_iter: 100, penalty: 'l2', solver: 'newton-cg' : 0.818**
 
 
 #### Iteration 7 : Unsuccessful tries
