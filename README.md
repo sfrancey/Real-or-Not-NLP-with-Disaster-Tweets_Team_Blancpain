@@ -3,7 +3,9 @@
 ## Team Blancpain
 
 Gabin FLOURAC,
+
 Sixtine FRANCEY,
+
 Alexandre KEUSEN,
 
 ## Objective of the Project 🕵️
@@ -49,7 +51,7 @@ Moreover, we updated the Readme file every week in order to monitor our project 
   - Cleaning by grouping similar Keywords (eg. "blew%20up","blown%20up" = "blew%20up")
   - Plot Top 15 Keywords per Target 
   - Plot Most related keywords per target 
-- Basic Model: few pre-processing
+  - Basic Model: few pre-processing
 
 - **Best score: Logistic Regression - Keyword/Target - TFIDF : 0.74**
 
@@ -57,65 +59,65 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
 #### Iteration 3 : Working on text
 
-- EDA on Text: Evaluated the impact of the two following cleaning on text:
+  - EDA on Text: Evaluated the impact of the two following cleaning on text:
   - Dropped stopwords
   - Removed punctuation
+  
+  - Bais Model trying preprocessing techniques
+  - Result: Did not improve the model. Worse, decreased the accuracy by 0.002
 
-- Bais Model trying preprocessing techniques
-- Result: Did not improve the model. Worse, decreased the accuracy by 0.002
-
-- **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 ↗**
+  - **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 ↗**
 
 
 
-#### Iteration 4 : Working on Keyword + Text
+#### Iteration 4 : Working on Keywords + Text
 
-- Further EDA on Keyword: Only consider most related Keywords per Target (> 87%)
-    → Keyword Selected = 47 out of 210
+  - Further EDA on Keyword: Only consider most related Keywords per Target (> 87%)
+      → Keyword Selected = 47 out of 210
 
-- Merged Selected Keyword + Text (cleaned from iteration 3)
+  - Merged Selected Keyword + Text (cleaned from iteration 3)
 
-- **Best Accuracy : Logistic Regression - TFIDF : 0.818 ↗**
+  - **Best Accuracy : Logistic Regression - TFIDF : 0.818 ↗**
 
 
 
 #### Iteration 5 : Working on Location
 
-- EDA on Location :
-  - Cleaning and Normalizing Location features which appears the most (Top 150)
-  - Identify which location are mainly related to a specific target and which ones are ambiguous
-  - Only consider most related Location per Target (> 90%) (Cf. Graph) ⇒ 7 locations
+  - EDA on Location :
+    - Cleaning and Normalizing Location features which appears the most (Top 150)
+    - Identify which location are mainly related to a specific target and which ones are ambiguous
+    - Only consider most related Location per Target (> 90%) (Cf. Graph) ⇒ 7 locations
 
-- Merge Keywords + Text cleaned with cleaned  locations
+  - Merge Keywords + Text cleaned with cleaned  locations
 
-- **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘️**
+  - **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘️**
 
 
 
 #### Iteration 6 : Model and hyperparameters optimization  
 
-- Model optimization by using cross validation and hyperparameters optimization for the following models: 
-  - kNN
-  - logistic regression
-  - random forest
-  - decision tree
+  - Model optimization by using cross validation and hyperparameters optimization for the following models: 
+    - kNN
+    - logistic regression
+    - random forest
+    - decision tree
 
-- Evaluated the model on selected keywords, selected location and text (iteration 5), since it was the most accurate features to work with
+  - Evaluated the model on selected keywords, selected location and text (iteration 5), since it was the most accurate features to work with
 
-- **Best Accuracy : Text + Selected location + Selected keywords / logistc regression / TF-IDF / C: 3.1622776601683795, max_iter: 100, penalty: 'l2', solver: 'newton-cg' : 0.818**
+  - **Best Accuracy : Text + Selected location + Selected keywords / logistc regression / TF-IDF / C: 3.1622776601683795, max_iter: 100, penalty: 'l2', solver: 'newton-cg' : 0.818**
 
 
 #### Iteration 7 : Unsuccessful tries
 
-- Tested more than 100 different models to see which one was the most accurate. We tried the following cleaning:
-  - Clean smileys
-  - Clean spelling mistakes
-  - Remove isolated letters
-  - Delete further elements (@, html punctuation, http links)
+  - Tested more than 100 different models to see which one was the most accurate. We tried the following cleaning:
+    - Clean smileys
+    - Clean spelling mistakes
+    - Remove isolated letters
+    - Delete further elements (@, html punctuation, http links)
 
-- We tried to use only one of these cleaning method each time and applied all models onto it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
+  - We tried to use only one of these cleaning method each time and applied all models onto it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
 
-- **Best Accuracy : Text + selected keyword / logistic regression / TF-IDF :**
+  - **Best Accuracy : Text + selected keyword / logistic regression / TF-IDF :**
 
 
 
