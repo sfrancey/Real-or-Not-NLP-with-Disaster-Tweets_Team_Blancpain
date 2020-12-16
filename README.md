@@ -137,3 +137,6 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 - Iteration 6 : Model and hyperparameters optimization >> Accuracy = **0,818**                        
 - Iteration 7.1 : Working on Emojis >> Accuracy = **0,804**
 - Iteration 7.2 : Working on spelling correction >> Accuracy = **0,79**
+
+## Link to the youtube video:
+[Here](https://youtu.be/tLXcWtIJMR4)
