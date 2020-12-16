@@ -30,7 +30,7 @@ sfrancey/Real-o-Not-NPL-with-Disaster-Tweets_Team-Blancpain/Code/Final_Notebook_
 - Complete ReadME file
 
 
-### Iteration
+### Iterations
 
 Our project has been built around 7 iterations. One for each assumption. For each of these, did  EDA and we tried and enriched our model with different features, further cleaning and using several parameters and classification models.
 
@@ -53,30 +53,30 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
 - EDA on Keywords: 
   - Cleaning by grouping similar Keywords (eg. "blew%20up","blown%20up" = "blew%20up")
-  - Plot Top 15 Keywords per Target 
-  - Plot Most related keywords per target 
+  - Plot *Top 15 Keywords per Target* 
+  - Plot *Target Distribution regarding Keywords*
   - Basic Model: few pre-processing
 
-- **Best score: Logistic Regression - Keyword/Target - TFIDF : 0.74**
+- **Best score: Logistic Regression - Keyword - TFIDF : 0.74**
 
 
 
-#### Iteration 3 : Working on text
+#### Iteration 3 : Working on Text
 
   - EDA on Text: Evaluated the impact of the two following cleaning on text:
-  - Dropped stopwords
-  - Removed punctuation
+    - Dropped stopwords
+    - Removed punctuation
   
-  - Bais Model trying preprocessing techniques
+  - Basic Model trying preprocessing technics
   - Result: Did not improve the model. Worse, decreased the accuracy by 0.002
 
-  - **Best accuracy score: Logistic Regression - text (with stopwords and punctuation) - TFIDF : 0.817 ↗**
+  - **Best accuracy score: Logistic Regression - Text (with stopwords and punctuation) - TFIDF : 0.817 ↗**
 
 
 
 #### Iteration 4 : Working on Keywords + Text
 
-  - Further EDA on Keyword: Only consider most related Keywords per Target (> 87%)
+  - Further EDA on Keyword: Only consider most related keywords per Target (> 87%)
       → Keyword Selected = 47 out of 210
 
   - Merged Selected Keyword + Text (cleaned from iteration 3)
@@ -88,27 +88,27 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 #### Iteration 5 : Working on Location
 
   - EDA on Location :
-    - Cleaning and Normalizing Location features which appears the most (Top 150)
-    - Identify which location are mainly related to a specific target and which ones are ambiguous
+    - Cleaning and Normalizing Location features which appear the most (Top 150)
+    - Identify which locations are mainly related to a specific target and which ones are ambiguous
     - Only consider most related Location per Target (> 90%) (Cf. Graph) ⇒ 7 locations
 
-  - Merge Keywords + Text cleaned with cleaned  locations
+  - Merge Selected Keywords + Text with Locations (Regular vs Selected)
 
-  - **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.77 ↘️**
+  - **Best Accuracy : kNN (Text + Selected keywords + Selected location) - TFIDF : 0.78 (-)**
 
 
 
 #### Iteration 6 : Model and hyperparameters optimization  
 
-  - Model optimization by using cross validation and hyperparameters optimization for the following models: 
+  - Model optimization by using cross validation and hyperparameters optimization (SearchGrid) for the following models: 
     - kNN
     - logistic regression
     - random forest
     - decision tree
 
-  - Evaluated the model on selected keywords, selected location and text (iteration 5), since it was the most accurate features to work with
+  - Evaluated models on selected keywords, selected locations and Text (iteration 5), since it was the most accurate features to work with
 
-  - **Best Accuracy : Text + Selected location + Selected keywords / logistc regression / TF-IDF / C: 3.1622776601683795, max_iter: 100, penalty: 'l2', solver: 'newton-cg' : 0.818**
+  - **Best Accuracy : Text + Selected locations + Selected keywords / logistc regression / TF-IDF / C: 3.1622776601683795, max_iter: 100, penalty: 'l2', solver: 'newton-cg' : 0.818**
 
 
 #### Iteration 7 : Unsuccessful tries
@@ -119,9 +119,9 @@ Moreover, we updated the Readme file every week in order to monitor our project 
     - Remove isolated letters
     - Delete further elements (@, html punctuation, http links)
 
-  - We tried to use only one of these cleaning method each time and applied all models onto it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
+  - We tried to use only one of these cleaning method each time and applied all models into it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
 
-  - **Best Accuracy : Text + selected keyword / logistic regression / TF-IDF :**
+  - **Best Accuracy : Text + selected keyword + emojis/ logistic regression / TF-IDF : 0.804↘️ **
 
 
 
