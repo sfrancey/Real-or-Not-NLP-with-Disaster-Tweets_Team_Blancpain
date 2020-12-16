@@ -139,4 +139,4 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 - Iteration 7.2 : Working on spelling correction >> Accuracy = **0,79**
 
 ## Link to the youtube video:
-[Here](https://youtu.be/tLXcWtIJMR4)
+[Click HERE](https://youtu.be/tLXcWtIJMR4)
