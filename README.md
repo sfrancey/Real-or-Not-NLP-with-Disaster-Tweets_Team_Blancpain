@@ -127,7 +127,7 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
 ## Results and Accuracy Evolution Graph 🥇
 
-![](Data/progressiongraph.jpg)
+![](Documents/progressiongraph.jpg)
 
 - Iteration 1 : Find the base rate >> Accuracy = **0,57**
 - Iteration 2 : Working on Keywords >> Accuracy = **0,74**
