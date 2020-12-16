@@ -16,6 +16,10 @@ To do so, we have access to a dataset of 6,471 tweets classified between real di
 
 Our results are compared among all teams involved in this competition in order to get the best prediction possible. 
 
+## Find our Notebook: 
+
+sfrancey/Real-o-Not-NPL-with-Disaster-Tweets_Team-Blancpain/Code/Final_Notebook_predict_real_disaster_TeamBlancpain.ipynb
+
 ## Project Structure 🚀
 
 ### Pre-tasks
