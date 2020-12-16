@@ -121,7 +121,7 @@ Moreover, we updated the Readme file every week in order to monitor our project 
 
   - We tried to use only one of these cleaning method each time and applied all models into it (logistic regression/random forest and W2V/TF-IDF) to see the best accuracy.
 
-  - **Best Accuracy : Text + selected keyword + emojis/ logistic regression / TF-IDF : 0.804↘️ **
+  - **Best Accuracy : Text + selected keyword + emojis/ logistic regression / TF-IDF : 0.804↘️**
 
 
 
